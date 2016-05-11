@@ -6,3 +6,7 @@ rad_file = "text_files/test.txt"
 
 for line in open(rad_file, 'r').readlines():
     print line
+
+
+open(rad_file, 'a').write("Helllllloooooooooooooooooooi\r\n")
+

@@ -47,3 +47,21 @@ Enfin on sauvegarde l'image dans un ficher :
     savefig(radarimage, dpi=100)
 
 dpi = dots per inch le nombre de points par pouces pour affiner l'image plus y en a
+
+1066 ou bien la ligne c'est le nombre de point qu'il a en ligne droite le Rayon
+720 ou bien "column" c'est le nombre de "secteur" d'angle Theta de division de cercle
+
+
+Ligne 365 c'est le début des données
+
+La ligne juste avant "2 1 0" est la ligne identifiant qui permet de savoir où commencent les données de points.
+
+
+On va lire d'abord le 1er Rayon donc les 1066 premières lignes. Et on va faire ça 720 (THETA) fois pour avoir chacun des rayons 
+Il faut bien lire le Rayon en premier (1066)
+
+On va représenter le "missing" en noir pour les valeur absente.
+
+chaque points d'un rayon est espacé de 250/1066 km
+chaque thetha augmente de 360/720 ° soit 1/2 ° par avancement
+

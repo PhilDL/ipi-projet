@@ -7,3 +7,6 @@ __pycache__/
 
 # vim specific
 *.swp
+
+# all files
+*~

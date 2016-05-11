@@ -1,0 +1,36 @@
+
+<html>
+    <head>
+        <title> Tests AJAX </title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <h2> Heure : </h2>
+                <div class="well" id="heure"></div>
+                
+                <select name="timezone" class="form-control">
+                    <option value="0">Réunion</option>
+                    <option value="-2">Paris</option>
+                    <option value="-7">New York</option>
+                </select>
+
+                <br/>
+                <button id="demande_heure" class="btn btn-success">Heure serveur ?</button>
+            </div>
+        </div>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+        <script>
+            $(document).ready(function(){
+
+              initialisations();      
+
+            });
+        </script>
+    </body>
+</html>
